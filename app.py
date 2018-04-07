@@ -1,5 +1,7 @@
 from flask import Flask, render_template
+from custom_filters import add_all_filters
 app = Flask(__name__)
+add_all_filters(app.jinja_env.filters)
 
 
 @app.route('/<username>')
