@@ -1,0 +1,8 @@
+groupOne:
+    namePrefix: yes
+    fields:
+        - field: 名前
+groupTwo:
+    namePrefix: no
+    fields:
+        - field: 名前
