@@ -1,8 +1,13 @@
 groupOne:
-    namePrefix: yes
-    fields:
-        - field: 名前
+    nestedGroupOne:
+        namePrefix: yes
+        fields:
+            - field: 声優.名前
+    nestedGroupTwo:
+        fields:
+            - field: 声優.ふりがな
+groupTwo:
 groupTwo:
     namePrefix: no
     fields:
-        - field: 名前
+        - field: 声優.名前
