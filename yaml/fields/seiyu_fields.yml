@@ -7,6 +7,9 @@ fields:
             type: text
 
     ふりがな:
+        name: furigana
+        input:
+            type: text
 
     画像ファイル:
 

@@ -1,0 +1,6 @@
+namespace: 'aaa'
+fields:
+  foo:
+    name: yes
+    input:
+      type: text

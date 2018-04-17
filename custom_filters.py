@@ -9,7 +9,7 @@ def get_parsed_form_yaml(form_name):
     return parse_form(form_name)
 
 
-all_filters = {'foo': foo, 'get_parsed_form_yaml': get_parsed_form_yaml}
+all_filters = {'get_parsed_form_yaml': get_parsed_form_yaml}
 
 
 def add_all_filters(filter_object):

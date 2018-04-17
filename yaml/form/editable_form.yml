@@ -3,6 +3,7 @@ groupOne:
         namePrefix: yes
         fields:
             - field: 声優.名前
+            - field: 声優.生年
     nestedGroupTwo:
         fields:
             - field: 声優.ふりがな
