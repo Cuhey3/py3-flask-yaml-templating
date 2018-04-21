@@ -1,0 +1,3 @@
+{% macro yaml_table(data_path) %}
+<p></p>
+{{ data_path | get_yaml_data | tojson }} {% endmacro %}

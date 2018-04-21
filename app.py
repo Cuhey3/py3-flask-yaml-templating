@@ -1,5 +1,7 @@
 from flask import Flask, render_template
 from custom_filters import add_all_filters
+from util.app_util import get_nested_value
+
 app = Flask(__name__)
 add_all_filters(app.jinja_env.filters)
 
